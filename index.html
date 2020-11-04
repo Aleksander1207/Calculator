@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="calculator.css">
+        <script src="calculator.js"></script>
+    </head>
+    <body>
+            <div role="main" class="ui-content">
+                <form class="calculator">
+                    <h1 class="c">Calculator</h1>
+                    <label id="label2" for="input">Result: </label><br>
+                    <input type="text" id="input" name="input" value=0 oninput="new_memory()"><br>
+                    <input type="text" id="memory" name="memory" value=0 ><br>
+                    <div class="flex-row">
+                        <input type="button" onmousedown="oldBG('MR')" onmouseup="newBG('MR')" onclick="memoryFunctions('MR')" class="calc-btn" value="MR" id="MR" >
+                        <input type="button" onclick="memoryFunctions('MC')" class="calc-btn" onmouseup="newBG('MC')" onmousedown="oldBG('MC')" value="MC" id="MC">
+                        <input type="button" onclick="memoryFunctions('MS')" class="calc-btn" onmouseup="newBG('MS')" onmousedown="oldBG('MS')" value="MS" id="MS">
+                        <input type="button" onclick="memoryFunctions('M+')" class="calc-btn" onmouseup="newBG('M+')" onmousedown="oldBG('M+')" value="M+" id="M+">
+                        <input type="button" onclick="memoryFunctions('M-')" class="calc-btn" onmouseup="newBG('M-')" onmousedown="oldBG('M-')" value="M-" id="M-"><br>
+                        <input type="button" onclick="percentage()" class="calc-btn" onmouseup="newBG('%')" onmousedown="oldBG('%')" value="%" id="%">
+                        <input type="button" onclick="inputValue('7')" class="calc-btn" onmouseup="newBG('7')" onmousedown="oldBG('7')" value="7" id="7">
+                        <input type="button" onclick="inputValue('8')" class="calc-btn" onmouseup="newBG('8')" onmousedown="oldBG('8')" value="8" id="8">
+                        <input type="button" onclick="inputValue('9')" class="calc-btn" onmouseup="newBG('9')" onmousedown="oldBG('9')" value="9" id="9">
+                        <input type="button" onclick="operation('/')" class="calc-btn" id="/" value="/"><br>
+                        <input type="button" onclick="reverse('+/-')" class="calc-btn" onmouseup="newBG('+/-')" onmousedown="oldBG('+/-')" value="+/-" id="+/-" >
+                        <input type="button" onclick="inputValue('4')" class="calc-btn" onmouseup="newBG('4')" onmousedown="oldBG('4')" value="4" id="4">
+                        <input type="button" onclick="inputValue('5')" class="calc-btn" onmouseup="newBG('5')" onmousedown="oldBG('5')" id="5" value="5">
+                        <input type="button" onclick="inputValue('6')" class="calc-btn" onmouseup="newBG('6')" onmousedown="oldBG('6')" value="6" id="6">
+                        <input type="button" onclick="operation('*')" class="calc-btn" id="*" value="*"><br>
+                        <input type="button" onclick="clearInput()" class="calc-btn" onmouseup="newBG('C')" onmousedown="oldBG('C')" value="C" id="C">
+                        <input type="button" onclick="inputValue('1')" class="calc-btn" onmouseup="newBG('1')" onmousedown="oldBG('1')" value="1" id="1">
+                        <input type="button" onclick="inputValue('2')" class="calc-btn" onmouseup="newBG('2')" onmousedown="oldBG('2')" value="2" id="2">
+                        <input type="button" onclick="inputValue('3')" class="calc-btn" onmouseup="newBG('3')" onmousedown="oldBG('3')" value="3" id="3">
+                        <input type="button" onclick="operation('-')" class="calc-btn" id="-" value="-"><br>
+                        <input type="button" onclick="clearAll()" class="calc-btn" onmouseup="newBG('AC')" onmousedown="oldBG('AC')" value="AC" id="AC">
+                        <input type="button" onclick="inputValue('0')" class="calc-btn" onmouseup="newBG('0')" onmousedown="oldBG('0')" value="0" id="0">        
+                        <input type="button" onclick="decimal('.')" class="calc-btn" onmouseup="newBG('.')" onmousedown="oldBG('.')" value="." id=".">                                      
+                        <input type="button" onclick="calculate()" class="calc-btn" onmouseup="newBG('equal')" onmousedown="oldBG('equal')" value="=" id="equal">
+                        <input type="button" onclick="operation('+')" class="calc-btn" id="+" value="+">                      
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,858 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-color:rgb(255, 187, 0);
+}
+.calc-btn
+{
+    border-radius: 50%;
+    width:140px;
+    height:75px;
+    font-weight:bolder;
+    font-size:30px;
+    margin:5px;
+    background-color:black;
+    color:white;
+}
+#equal
+{
+    width:140px;
+}
+#input
+{
+    width:70%;
+    height:80px;
+    text-align:right;
+    font-size:50px;
+    -webkit-border-radius:20px;
+    margin-left:170px;
+    background-color:black;
+    color:white;
+    padding-right:20px;
+    margin-top:20px;
+}
+.flex-row
+{
+    margin-left:210px;
+    padding-bottom:30px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.c
+{
+    font-size:70px;
+    text-align:center;
+    margin-top:50px;
+}
+#memory
+{
+    background-color:wheat;
+    width:40%;
+    height:60px;
+    -webkit-border-radius:30px;
+    text-align:right;
+    padding-right:20px;
+    margin-left:460px;
+    font-size:40px;
+    border:5px solid black;
+    display: none;
+}
+form
+{
+    border: 15px solid black;
+    -webkit-border-radius:10px;
+}
+#label2
+{
+    font-size: 40px;
+    font-weight: bolder;
+    position: relative;
+    left:120px;
+    visibility: visible;
+}
+/*Media Queries*/
+@media only screen and (max-width:1211px)
+{
+    body
+    {
+        background-color:rgb(255, 187, 0);   
+    }
+    #page
+    {
+        max-width:1211px;
+    }
+    .calc-btn
+    {
+        border-radius: 50%;
+        width:155px;
+        height:125px;
+        font-weight:bolder;
+        font-size:55px;
+        margin:5px;
+        background-color:black;
+        color:white;
+    }
+    #equal
+    {
+        width:155px;
+    }
+    #input
+    {
+        width:80%;
+        height:130px;
+        text-align:right;
+        font-size:70px;
+        -webkit-border-radius:20px;
+        margin-left:105px;
+        background-color:black;
+        color:white;
+        padding-right:20px;
+        margin-top:100px;
+    }
+    .flex-row
+    {
+        margin-top:120px;
+        margin-left:145px;
+        padding-bottom:30px;
+        margin-bottom:90px;
+    }
+    form
+    {
+        border: 15px solid black;
+        -webkit-border-radius:10px;
+    }
+    .c
+    {
+        font-size:110px;
+        text-align:center;
+        margin-top:100px;
+    }
+    #label2
+    {
+        font-size: 65px;
+        font-weight: bolder;
+        visibility: visible;
+        position:relative;
+        top:60px;
+    }
+}
+@media only screen and (max-width:1111px)
+{
+    body
+    {
+        background-color:rgb(255, 187, 0);   
+    }
+    #page
+    {
+        max-width:1111px;
+    }
+    .calc-btn
+    {
+        border-radius: 50%;
+        width:135px;
+        height:105px;
+        font-weight:bolder;
+        font-size:45px;
+        margin:5px;
+        background-color:black;
+        color:white;
+    }
+    #equal
+    {
+        width:135px;
+    }
+    #input
+    {
+        width:80%;
+        height:110px;
+        text-align:right;
+        font-size:60px;
+        -webkit-border-radius:20px;
+        margin-left:105px;
+        background-color:black;
+        color:white;
+        padding-right:20px;
+        margin-top:100px;
+    }
+    .flex-row
+    {
+        margin-top:80px;
+        margin-left:145px;
+        padding-bottom:30px;
+        margin-bottom:60px;
+    }
+    form
+    {
+        border: 15px solid black;
+        -webkit-border-radius:10px;
+    }
+    .c
+    {
+        font-size:90px;
+        text-align:center;
+        margin-top:100px;
+    }
+    #label2
+    {
+        font-size: 55px;
+        font-weight: bolder;
+        visibility: visible;
+        position:relative;
+        top:60px;
+    }
+}
+@media only screen and (max-width:991px)
+{
+    body
+    {
+        background-color:rgb(255, 187, 0);   
+    }
+    #page
+    {
+        max-width:380px;
+    }
+    .calc-btn
+    {
+        border-radius: 50%;
+        width:105px;
+        height:75px;
+        font-weight:bolder;
+        font-size:40px;
+        margin:5px;
+        background-color:black;
+        color:white;
+    }
+    #equal
+    {
+        width:105px;
+    }
+    #input
+    {
+        width:80%;
+        height:80px;
+        text-align:right;
+        font-size:50px;
+        -webkit-border-radius:20px;
+        margin-left:65px;
+        background-color:black;
+        color:white;
+        padding-right:20px;
+        margin-top:100px;
+    }
+    .flex-row
+    {
+        margin-top:50px;
+        margin-left:135px;
+        padding-bottom:30px;
+        margin-bottom:30px;
+    }
+    form
+    {
+        border: 15px solid black;
+        -webkit-border-radius:10px;
+    }
+    .c
+    {
+        font-size:60px;
+        text-align:center;
+        margin-top:100px;
+    }
+    #label2
+    {
+        font-size: 45px;
+        font-weight: bolder;
+        visibility: visible;
+        position:relative;
+        top:60px;
+    }
+}  
+@media only screen and (max-width:918px)
+{
+    body
+    {
+        background-color:rgb(255, 187, 0);   
+    }
+    #page
+    {
+        max-width:380px;
+    }
+    .calc-btn
+    {
+        border-radius: 50%;
+        width:95px;
+        height:75px;
+        font-weight:bolder;
+        font-size:30px;
+        margin:5px;
+        background-color:black;
+        color:white;
+    }
+    #equal
+    {
+        width:95px;
+    }
+    #input
+    {
+        width:80%;
+        height:60px;
+        text-align:right;
+        font-size:50px;
+        -webkit-border-radius:20px;
+        margin-left:75px;
+        background-color:black;
+        color:white;
+        padding-right:20px;
+        margin-top:120px;
+    }
+    .flex-row
+    {
+        margin-top:50px;
+        margin-left:135px;
+        padding-bottom:30px;
+        margin-bottom:40px;
+    }
+    form
+    {
+        border: 15px solid black;
+        -webkit-border-radius:10px;
+    }
+    .c
+    {
+        font-size:60px;
+        text-align:center;
+        margin-top:100px;
+    }
+    #label2
+    {
+        font-size: 35px;
+        font-weight: bolder;
+        visibility: visible;
+        position:relative;
+        top:60px;
+    }
+}
+@media only screen and (max-width:808px)
+{
+    body
+    {
+        background-color:rgb(255, 187, 0);   
+    }
+    #page
+    {
+        max-width:380px;
+    }
+    .calc-btn
+    {
+        border-radius: 50%;
+        width:85px;
+        height:65px;
+        font-weight:bolder;
+        font-size:30px;
+        margin:5px;
+        background-color:black;
+        color:white;
+    }
+    #equal
+    {
+        width:85px;
+    }
+    #input
+    {
+        width:80%;
+        height:70px;
+        text-align:right;
+        font-size:50px;
+        -webkit-border-radius:20px;
+        margin-left:55px;
+        background-color:black;
+        color:white;
+        padding-right:20px;
+        margin-top:120px;
+    }
+    .flex-row
+    {
+        margin-top:80px;
+        margin-left:110px;
+        padding-bottom:30px;
+        margin-bottom:50px;
+    }
+    form
+    {
+        border: 15px solid black;
+        -webkit-border-radius:10px;
+    }
+    .c
+    {
+        font-size:50px;
+        text-align:center;
+        margin-top:100px;
+    }
+    #label2
+    {
+        font-size: 40px;
+        font-weight: bolder;
+        visibility: visible;
+        position:relative;
+        top:60px;
+    }
+} 
+@media only screen and (max-width:769px)
+{
+    body
+    {
+        background-color:rgb(255, 187, 0);   
+    }
+    #page
+    {
+        max-width:380px;
+    }
+    .calc-btn
+    {
+        border-radius: 50%;
+        width:85px;
+        height:60px;
+        font-weight:bolder;
+        font-size:30px;
+        margin:5px;
+        background-color:black;
+        color:white;
+    }
+    #equal
+    {
+        width:85px;
+    }
+    #input
+    {
+        width:80%;
+        height:60px;
+        text-align:right;
+        font-size:40px;
+        -webkit-border-radius:20px;
+        margin-left:65px;
+        background-color:black;
+        color:white;
+        padding-right:20px;
+        margin-top:120px;
+    }
+    .flex-row
+    {
+        margin-top:50px;
+        margin-left:95px;
+        padding-bottom:70px;
+        margin-bottom:30px;
+    }
+    form
+    {
+        border: 15px solid black;
+        -webkit-border-radius:10px;
+    }
+    .c
+    {
+        font-size:60px;
+        text-align:center;
+        margin-top:100px;
+    }
+    #label2
+    {
+        font-size: 40px;
+        font-weight: bolder;
+        visibility: visible;
+        position:relative;
+        top:60px;
+    }
+}
+@media only screen and (max-width:720px)
+{
+    body
+    {
+        background-color:rgb(255, 187, 0);   
+    }
+    #page
+    {
+        max-width:720px;
+    }
+    .calc-btn
+    {
+        border-radius: 50%;
+        width:90px;
+        height:65px;
+        font-weight:bolder;
+        font-size:35px;
+        margin:5px;
+        background-color:black;
+        color:white;
+    }
+    #equal
+    {
+        width:90px;
+    }
+    #input
+    {
+        width:80%;
+        height:60px;
+        text-align:right;
+        font-size:45px;
+        -webkit-border-radius:20px;
+        margin-left:70px;
+        background-color:black;
+        color:white;
+        padding-right:20px;
+        margin-top:100px;
+    }
+    .flex-row
+    {
+        margin-top:60px;
+        margin-left:75px;
+        padding-bottom:30px;
+        margin-bottom:50px;
+    }
+    form
+    {
+        border: 15px solid black;
+        -webkit-border-radius:10px;
+    }
+    .c
+    {
+        font-size:70px;
+        text-align:center;
+        margin-top:100px;
+    }
+    #label2
+    {
+        font-size: 45px;
+        font-weight: bolder;
+        visibility: visible;
+        position:relative;
+        top:60px;
+    }
+}
+@media only screen and (max-width:641px)
+{
+    body
+    {
+        background-color:rgb(255, 187, 0);   
+    }
+    #page
+    {
+        max-width:380px;
+    }
+    .calc-btn
+    {
+        border-radius: 50%;
+        width:65px;
+        height:45px;
+        font-weight:bolder;
+        font-size:20px;
+        margin:5px;
+        background-color:black;
+        color:white;
+    }
+    #equal
+    {
+        width:65px;
+    }
+    #input
+    {
+        width:80%;
+        height:40px;
+        text-align:right;
+        font-size:30px;
+        -webkit-border-radius:20px;
+        margin-left:45px;
+        background-color:black;
+        color:white;
+        padding-right:20px;
+        margin-top:100px;
+    }
+    .flex-row
+    {
+        margin-top:50px;
+        margin-left:95px;
+        padding-bottom:30px;
+        margin-bottom:30px;
+    }
+    form
+    {
+        border: 15px solid black;
+        -webkit-border-radius:10px;
+    }
+    .c
+    {
+        font-size:50px;
+        text-align:center;
+        margin-top:100px;
+    }
+    #label2
+    {
+        font-size: 25px;
+        font-weight: bolder;
+        visibility: visible;
+        position:relative;
+        top:60px;
+    }
+}
+@media only screen and (max-width:530px)
+{
+    body
+    {
+        background-color:rgb(255, 187, 0);   
+    }
+    #page
+    {
+        max-width:530px;
+    }
+    .calc-btn
+    {
+        border-radius: 50%;
+        width:65px;
+        height:45px;
+        font-weight:bolder;
+        font-size:20px;
+        margin:5px;
+        background-color:black;
+        color:white;
+    }
+    #equal
+    {
+        width:65px;
+    }
+    #input
+    {
+        width:80%;
+        height:40px;
+        text-align:right;
+        font-size:30px;
+        -webkit-border-radius:20px;
+        margin-left:45px;
+        background-color:black;
+        color:white;
+        padding-right:20px;
+        margin-top:120px;
+    }
+    .flex-row
+    {
+        margin-top:20px;
+        margin-left:45px;
+        padding-bottom:30px;
+        margin-bottom:40px;
+    }
+    form
+    {
+        border: 15px solid black;
+        -webkit-border-radius:10px;
+    }
+    .c
+    {
+        font-size:35px;
+        text-align:center;
+        margin-top:100px;
+    }
+    #label2
+    {
+        font-size: 25px;
+        font-weight: bolder;
+        visibility: visible;
+        position:relative;
+        top:80px;
+    }
+}
+@media only screen and (max-width:481px)
+{
+    body
+    {
+        background-color:rgb(255, 187, 0);   
+    }
+    #page
+    {
+        max-width:380px;
+    }
+    .calc-btn
+    {
+        border-radius: 50%;
+        width:55px;
+        height:35px;
+        font-weight:bolder;
+        font-size:16px;
+        margin:5px;
+        background-color:black;
+        color:white;
+    }
+    #equal
+    {
+        width:55px;
+    }
+    #input
+    {
+        width:80%;
+        height:40px;
+        text-align:right;
+        font-size:30px;
+        -webkit-border-radius:20px;
+        margin-left:45px;
+        background-color:black;
+        color:white;
+        padding-right:20px;
+        margin-top:120px;
+    }
+    .flex-row
+    {
+        margin-top:20px;
+        margin-left:35px;
+        padding-bottom:30px;
+        margin-bottom:40px;
+    }
+    form
+    {
+        border: 15px solid black;
+        -webkit-border-radius:10px;
+    }
+    .c
+    {
+        font-size:35px;
+        text-align:center;
+        margin-top:100px;
+    }
+    #label2
+    {
+        font-size: 25px;
+        font-weight: bolder;
+        visibility: visible;
+        position:relative;
+        top:80px;
+    }
+}
+@media only screen and (max-width:441px)
+{
+    body
+    {
+        background-color:rgb(255, 187, 0);   
+    }
+    #page
+    {
+        max-width:441px;
+    }
+    .calc-btn
+    {
+        border-radius: 50%;
+        width:40px;
+        height:35px;
+        font-weight:bolder;
+        font-size:15px;
+        margin:5px;
+        background-color:black;
+        color:white;
+    }
+    #equal
+    {
+        width:45px;
+    }
+    #input
+    {
+        width:80%;
+        height:40px;
+        text-align:right;
+        font-size:30px;
+        -webkit-border-radius:20px;
+        margin-left:45px;
+        background-color:black;
+        color:white;
+        padding-right:20px;
+        margin-top:120px;
+    }
+    .flex-row
+    {
+        margin-top:20px;
+        margin-left:55px;
+        padding-bottom:30px;
+        margin-bottom:40px;
+    }
+    form
+    {
+        border: 15px solid black;
+        -webkit-border-radius:10px;
+    }
+    .c
+    {
+        font-size:35px;
+        text-align:center;
+        margin-top:100px;
+    }
+    #label2
+    {
+        font-size: 25px;
+        font-weight: bolder;
+        visibility: visible;
+        position:relative;
+        top:80px;
+    }
+}
+@media only screen and (max-width:380px)
+{
+    body
+    {
+        background-color:rgb(255, 187, 0);   
+    }
+    #page
+    {
+        max-width:380px;
+    }
+    .calc-btn
+    {
+        border-radius: 50%;
+        width:43px;
+        height:35px;
+        font-weight:bolder;
+        font-size:16px;
+        margin:5px;
+        background-color:black;
+        color:white;
+    }
+    #equal
+    {
+        width:43px;
+    }
+    #input
+    {
+        width:70%;
+        height:40px;
+        text-align:right;
+        font-size:30px;
+        -webkit-border-radius:20px;
+        margin-left:45px;
+        background-color:black;
+        color:white;
+        padding-right:20px;
+        margin-top:140px;
+    }
+    .flex-row
+    {
+        margin-top:30px;
+        margin-left:25px;
+        padding-bottom:30px;
+        margin-bottom:0px;
+    }
+    form
+    {
+        border: 15px solid black;
+        -webkit-border-radius:10px;
+        width:120%;
+    }
+    .c
+    {
+        font-size:50px;
+        text-align:center;
+        margin-top:100px;
+    }
+    #label2
+    {
+        font-size: 30px;
+        font-weight: bolder;
+        visibility: visible;
+        position:relative;
+        top:100px;
+    }
+}
+

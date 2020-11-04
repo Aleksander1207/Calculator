@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<widget id="io.cordova.hellocordova" 
+	version="0.0.1" 
+	android-versionCode="13" 
+	xmlns="http://www.w3.org/ns/widgets" 
+	xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  
+	<name>Calculator</name>
+  <description>A simple Calculator app designed for Android.</description>
+  <author email="aleksander.aleksiev12@abv.bg" href="http://omg-bg.com"> @Aleksander Aleksiev</author>
+  <icon src="calculator.jpg"/>
+  <content src="index.html" />
+  <platform name="android">
+      <preference name="Fullscreen" value="true" />
+  </platform>
+</widget>
