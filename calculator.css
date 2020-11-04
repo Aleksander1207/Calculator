@@ -28,15 +28,14 @@ body
     text-align:right;
     font-size:50px;
     -webkit-border-radius:20px;
-    margin-left:170px;
+    margin-left:200px;
     background-color:black;
     color:white;
     padding-right:20px;
-    margin-top:20px;
 }
 .flex-row
 {
-    margin-left:210px;
+    margin-left:350px;
     padding-bottom:30px;
     margin-top:20px;
     margin-bottom:20px;
@@ -45,7 +44,7 @@ body
 {
     font-size:70px;
     text-align:center;
-    margin-top:50px;
+    margin-top:20px;
 }
 #memory
 {
@@ -71,7 +70,7 @@ form
     font-weight: bolder;
     position: relative;
     left:120px;
-    visibility: visible;
+    visibility: hidden;
 }
 /*Media Queries*/
 @media only screen and (max-width:1211px)
@@ -87,37 +86,34 @@ form
     .calc-btn
     {
         border-radius: 50%;
-        width:155px;
-        height:125px;
+        width:85px;
+        height:60px;
         font-weight:bolder;
-        font-size:55px;
+        font-size:20px;
         margin:5px;
         background-color:black;
         color:white;
     }
     #equal
     {
-        width:155px;
+        width:85px;
     }
     #input
     {
-        width:80%;
-        height:130px;
+        width:60%;
+        height:50px;
         text-align:right;
-        font-size:70px;
+        font-size:40px;
         -webkit-border-radius:20px;
-        margin-left:105px;
+        margin-left:205px;
         background-color:black;
         color:white;
         padding-right:20px;
-        margin-top:100px;
     }
     .flex-row
     {
-        margin-top:120px;
-        margin-left:145px;
-        padding-bottom:30px;
-        margin-bottom:90px;
+        margin-top:20px;
+        margin-left:325px;
     }
     form
     {
@@ -126,17 +122,16 @@ form
     }
     .c
     {
-        font-size:110px;
+        font-size:60px;
         text-align:center;
-        margin-top:100px;
+        margin-top:60px;
     }
     #label2
     {
-        font-size: 65px;
+        font-size: 30px;
         font-weight: bolder;
         visibility: visible;
         position:relative;
-        top:60px;
     }
 }
 @media only screen and (max-width:1111px)
@@ -199,7 +194,7 @@ form
     {
         font-size: 55px;
         font-weight: bolder;
-        visibility: visible;
+        visibility: hidden;
         position:relative;
         top:60px;
     }
@@ -264,7 +259,7 @@ form
     {
         font-size: 45px;
         font-weight: bolder;
-        visibility: visible;
+        visibility: hidden;
         position:relative;
         top:60px;
     }
@@ -329,7 +324,7 @@ form
     {
         font-size: 35px;
         font-weight: bolder;
-        visibility: visible;
+        visibility: hidden;
         position:relative;
         top:60px;
     }
@@ -394,7 +389,7 @@ form
     {
         font-size: 40px;
         font-weight: bolder;
-        visibility: visible;
+        visibility: hidden;
         position:relative;
         top:60px;
     }
@@ -459,7 +454,7 @@ form
     {
         font-size: 40px;
         font-weight: bolder;
-        visibility: visible;
+        visibility: hidden;
         position:relative;
         top:60px;
     }
@@ -524,7 +519,7 @@ form
     {
         font-size: 45px;
         font-weight: bolder;
-        visibility: visible;
+        visibility: hidden;
         position:relative;
         top:60px;
     }
@@ -589,7 +584,7 @@ form
     {
         font-size: 25px;
         font-weight: bolder;
-        visibility: visible;
+        visibility: hidden;
         position:relative;
         top:60px;
     }
@@ -654,7 +649,7 @@ form
     {
         font-size: 25px;
         font-weight: bolder;
-        visibility: visible;
+        visibility: hidden;
         position:relative;
         top:80px;
     }
@@ -719,7 +714,7 @@ form
     {
         font-size: 25px;
         font-weight: bolder;
-        visibility: visible;
+        visibility: hidden;
         position:relative;
         top:80px;
     }
@@ -784,7 +779,7 @@ form
     {
         font-size: 25px;
         font-weight: bolder;
-        visibility: visible;
+        visibility: hidden;
         position:relative;
         top:80px;
     }
@@ -850,7 +845,7 @@ form
     {
         font-size: 30px;
         font-weight: bolder;
-        visibility: visible;
+        visibility: hidden;
         position:relative;
         top:100px;
     }
